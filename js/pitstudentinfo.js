@@ -11,8 +11,9 @@ var ajax = new HttpObject()
 , matchCount = 0
 , currentMatch = ""
 ;
+
 //==============Handlers and Functions=============
-objectEventHandler( window, "load", init );
+//objectEventHandler( window, "load", init );
 //=================================================
 objectEventHandler( o("f"), "click", forward );
 //=================================================
@@ -220,9 +221,16 @@ function step(){
      else if( window.event.keyCode === 37 ) reverse();
 }
 //=================================================
+function getIt(){
+
+
+}
+//=================================================
 function init(){
     o("match").focus();
-    ajax.open("GET", "//dl.dropbox.com/u/46305297/Apper8/docs/people.csv", false);
+	
+    ajax.open("GET", "people.csv", false);
+	
     ajax.send(null);
     if(ajax.status == 200 || ajax.status == 0){
         records = ajax.responseText.split("\r");
@@ -235,7 +243,7 @@ function init(){
 }
 //==============================================
 
-
+init();
 
 
 
