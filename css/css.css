@@ -16,8 +16,8 @@
 
     body{
         background-color: #ddd;
-		position: fixed;
-		width: fixed;
+		position: relative;
+		width: relative;
 	
 	
     }
@@ -38,7 +38,7 @@
     }
 	fieldset
 	{
-	
+	height: relative;
 	border: hidden;
 	}
     .box{
@@ -53,6 +53,7 @@
         box-shadow: 10px 10px 20px #373737;
 		position: inherited;
 		width: relative;
+		height: relative;
 		color: white;
 		font-family: geneva;
 		
@@ -64,7 +65,7 @@
         margin-right: 0;
         padding-left: 0;
         display: inline-block; 
-		background-color: #B2B2CC;
+		background-color: #6699FF;
 		color: white;
 		text-align: center;
 		margin:0;
