@@ -28,9 +28,10 @@
 	
 		border: hidden;
 		background-color: #505054;
-		box-shadow: 5px 5px 5px #B2B2B2;
-		font-family: geneva;
 		
+		box-shadow:2px 1px 1px #B2B2B2;
+		font-family: geneva;
+		overflow: hidden;
 		
 		
 	
