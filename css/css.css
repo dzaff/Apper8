@@ -1,9 +1,23 @@
-    input{
+   /* input{
         font-weight: bold;
-        background-color: #ccffff;
-    }
+        background-color: #ccffff;*/
+	input {
+    width: 135px;
+    height: 20px;
+    border-radius: 5px;
+    border: 3px riggid #000; 
+    outline: none; 
+    resize: none; 
+	background-color: #ccffff;
+	box-shadow: 5px 5px 5px #373737;
+}
+
+
     body{
         background-color: #ddd;
+		position: relative;
+	
+	
     }
     table{
         font-weight: bold;
@@ -18,18 +32,30 @@
         height: 440px;
         border-radius: 10px;
         box-shadow: 10px 10px 20px #373737;
+	
+		
     }
     button {
         margin-left: 0;
         margin-right: 0;
         padding-left: 0;
         display: inline-block; 
+		background-color: black;
+		color: white;
+		text-align: center;
+		margin:0;
+		padding: 2px 7px 0px 7px;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:13px;
+		box-shadow: 5px 5px 10px #373737;
     }
     img {
         margin-left: 0;
         margin-right: 0;
         padding-left: 0;
         display: inline-block; 
+		
     }
+
     
     

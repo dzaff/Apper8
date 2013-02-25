@@ -1,3 +1,5 @@
+
+
 //==============DATA=======================
 var ajax = new HttpObject()
 , records = []
@@ -229,7 +231,7 @@ function getIt(){
 function init(){
     o("match").focus();
 	
-    ajax.open("GET", "people.csv", false);
+    ajax.open("GET", "https://dl.dropbox.com/u/46305297/Apper8/people.csv", false);
 	
     ajax.send(null);
     if(ajax.status == 200 || ajax.status == 0){
