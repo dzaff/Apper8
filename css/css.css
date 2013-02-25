@@ -10,28 +10,52 @@
     resize: none; 
 	background-color: #ccffff;
 	box-shadow: 5px 5px 5px #373737;
+	font-family:cursive;
 }
 
 
     body{
         background-color: #ddd;
-		position: relative;
+		position: fixed;
+		width: fixed;
 	
 	
     }
+	div
+	{
+	
+	border: hidden;
+		background-color: #505054;
+		box-shadow: 5px 5px 5px #373737;
+		font-family: geneva;
+	
+	}
     table{
         font-weight: bold;
+		
+		
+		
     }
+	fieldset
+	{
+	
+	border: hidden;
+	}
     .box{
-        background-color: #fff;
+        background-color: #000000;
+		
         #margin-top: 15px; 
         #margin-bottom: 15px;
         #margin-right: 15px;
         #margin-left: 15px;
-        width: 420px; 
-        height: 440px;
+       
         border-radius: 10px;
         box-shadow: 10px 10px 20px #373737;
+		position: inherited;
+		width: relative;
+		color: white;
+		font-family: geneva;
+		
 	
 		
     }
@@ -40,7 +64,7 @@
         margin-right: 0;
         padding-left: 0;
         display: inline-block; 
-		background-color: black;
+		background-color: #B2B2CC;
 		color: white;
 		text-align: center;
 		margin:0;
@@ -48,12 +72,14 @@
 		font-family:Verdana, Arial, Helvetica, sans-serif;
 		font-size:13px;
 		box-shadow: 5px 5px 10px #373737;
+		
     }
     img {
         margin-left: 0;
         margin-right: 0;
         padding-left: 0;
         display: inline-block; 
+		position: relative;
 		
     }
 
