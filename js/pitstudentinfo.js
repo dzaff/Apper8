@@ -222,7 +222,7 @@ function step(){
 //=================================================
 function init(){
     o("match").focus();
-    ajax.open("GET", "docs/people.csv", false);
+    ajax.open("GET", "//dl.dropbox.com/u/46305297/Apper8/docs/people.csv", false);
     ajax.send(null);
     if(ajax.status == 200 || ajax.status == 0){
         records = ajax.responseText.split("\r");
