@@ -1,0 +1,35 @@
+    input{
+        font-weight: bold;
+        background-color: #ccffff;
+    }
+    body{
+        background-color: #ddd;
+    }
+    table{
+        font-weight: bold;
+    }
+    .box{
+        background-color: #fff;
+        #margin-top: 15px; 
+        #margin-bottom: 15px;
+        #margin-right: 15px;
+        #margin-left: 15px;
+        width: 420px; 
+        height: 440px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 20px #373737;
+    }
+    button {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        display: inline-block; 
+    }
+    img {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        display: inline-block; 
+    }
+    
+    
