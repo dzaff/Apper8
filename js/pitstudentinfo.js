@@ -224,7 +224,7 @@ function init(){
     o("match").focus();
     ajax.open("GET", "docs/people.csv", false);
     ajax.send(null);
-    if(ajax.status == 200){
+    if(ajax.status == 200 || ajax.status == 0){
         records = ajax.responseText.split("\r");
         recordCount = records.length;
         o("c").innerHTML = recordPointer;
