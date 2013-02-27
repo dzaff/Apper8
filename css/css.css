@@ -18,6 +18,7 @@
         background-color: #000000;
 		
 		
+		
 	
 	
     }
@@ -28,7 +29,7 @@
 	
 		border: hidden;
 		background-color: #505054;
-		
+		max-width: 85%;
 		box-shadow:2px 1px 1px #B2B2B2;
 		font-family: geneva;
 		overflow: hidden;
@@ -47,7 +48,9 @@
     }
 	fieldset
 	{
-	height: 1000%;
+	height: 100%;
+	width: 100%;
+	min-height: 100%;
 	border: hidden;
 	
 	
@@ -57,7 +60,7 @@
 		border-radius: 10px;
         box-shadow: 10px 10px 20px #373737;
 		position: inherited;
-		color: white;
+		color: black;
 		font-family: geneva;
 	
 		
@@ -90,6 +93,13 @@
 	height: 100%;
 	white-space: nowrap;
     min-height: 100%;
+	}
+	
+	#matchIndex{
+	
+	padding-bottom: 15px;
+	
+	
 	}
 
 
