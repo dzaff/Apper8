@@ -2,7 +2,7 @@
         font-weight: bold;
         background-color: #ccffff;*/
 	input {
-    width: 135px;
+    width: 150px;
     height: 20px;
     border-radius: 5px;
     border: 3px riggid #000; 
@@ -15,7 +15,7 @@
 
 
     body{
-        background-color: #ddd;
+        background-color: #000000;
 		
 		
 	
@@ -53,7 +53,7 @@
 	
 	}
     .box{
-        background-color: #000000;
+        background-color: #C2C2B2;
 		border-radius: 10px;
         box-shadow: 10px 10px 20px #373737;
 		position: inherited;
@@ -83,9 +83,12 @@
         display: inline-block; 
 		
 		
+		
     }
 	#wrapper {
     width: 100%;
+	height: 100%;
+	white-space: nowrap;
     min-height: 100%;
 	}
 
